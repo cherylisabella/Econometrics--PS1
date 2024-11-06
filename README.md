@@ -77,6 +77,8 @@ There is one country which requires more than 200 days to open a business : Hait
 
 **3. Regression Model 1:** Regression model: $gnipc= \beta_0+\beta_1*daysopen+u$
 
+![Regression Model 1](lm1_results.html)
+
 - Estimate of $\beta_1 = -110.85$ : we observe that ceteris paribus, a day increase in the number of days needed to open a business is associated to a decrease of 110$ of GNI per capita. This results are significant at the 1% level. The negative sign was expected as less efficient processes to open a business might reflect bureaucratic inefficiencies, which can be correlated with lower economic performance. 
 
 - Estimate of $\beta_0$ : the intercept tells us that in a hypothetical country where opening a business takes 0 day, the average GNI per capita is expected to be equal to 12469.58. As we are interested in GNI per capita, a positive value was expected.
@@ -105,6 +107,9 @@ The obtained level of income for a country where it takes 200 days to open a bus
 
 **6. Regression model 2:** 
 
+![Regression Model 2](lm2_results.html)
+
+
 Interpretation of $\beta_1=-27.085$:  we observe that ceteris paribus, a day increase in the number of days needed to enforce a contract is associated to a decrease of 27.085$ of GNI per capita. This results are significant at the 1% level. This makes sense as delays can impede economic performances of the business, leading to higher costs, less investments, less economic activity, which, in the end, could be associated with lower GNI per capita. 
 
 **7. Comparisons of models 1 and 2:**
@@ -116,6 +121,8 @@ A higher $R^2$ indicates that the model explains more of the variations in GNI p
 
 
 **8. Regression model 3:** 
+
+![Regression Model 3](lm3_results.html)
 
 Ceteris paribus, a day increase in the number of days needed to open a business is associated to a decrease of 1.6% of GNI per capita. This results are significant at the 1% level. This suggests that countries where it takes longer to open a business tend to have lower GNI per capita. As we mentioned in (3), long duration to open a business might reflect bureaucratic inefficiencies, which can be correlated with lower economic performance. 
 
